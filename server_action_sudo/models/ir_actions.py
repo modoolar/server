@@ -59,7 +59,8 @@ class ServerAction(models.Model):
          - 2. depending on the write configuration:
 
           - `new`: new record in the base model
-          - `copy_current`: copy the current record (id = active_id) + gives custom values
+          - `copy_current`: copy the current record (id = active_id)
+                            + gives custom values
           - `new_other`: new record in target model
           - `copy_other`: copy the current record (id from reference object)
             + gives custom values
